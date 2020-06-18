@@ -1,3 +1,32 @@
-.box-1 { width: 200px; height: 200px; background: lime; padding: 10px; border: 2px solid palevioletred; margin: 1em;}
-.box-2 { width: 200px; height: 200px; background: lightcoral;}
-.box-2-content {}
+.box-1, .box-2 {
+
+    width: 300px;
+    height: 200px;
+    margin: 2em;
+}
+
+.box-1 {
+    background: yellowgreen;
+    border: 100px solid red;
+    border-top-width: 200px;
+    border-top-color:transparent;
+}
+
+.box-2 {
+    background: lightseagreen;
+    border-left-width: 5px;
+    border-left-style: dotted;
+    border-left-color: blue;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.box-2-content {
+
+     background: burlywood;
+     border: 3px solid green;
+    width: 75px;
+    height: 75px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
