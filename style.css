@@ -1,21 +1,32 @@
 
-box {
-    width: 75px;
-    height: 75px;
-    font-size: 1.5em;
-    line-height: 75px;
-    text-align: center;
+.title::first-letter {
+    color: red;
+    font-size: 2em;
 }
 
-.box1 {
-    background: darkcyan;
+.text::first-line{
+        color: blue;
+        font-size: 2em;
 }
 
-.box2 {
-    background: darkkhaki;
+.text::selection {
+    color: lime;
+    background: red;
 }
 
-.box3 {
+/* .dolar::before,
+.dolar::after{
 
-    background: darkorchid;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: red;
+} */
+.dolar::before{
+    content: '$';
+}
+
+.dolar::after {
+    content:'.00';
 }
