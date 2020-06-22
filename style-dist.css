@@ -1,1 +1,2 @@
-.title:first-letter{color:red;font-size:2em}.text:first-line{color:blue;font-size:2em}.text::selection{color:lime;background:red}.dolar:before{content:'$'}.dolar:after{content:'.00'}
+
+.enlace:active{color:cyan;background:red}.buttom{text-decoration:none;display:inline-block;background:red;padding:5em;border-radius:10px;color:white}.buttom:active{transform:scale(0.9)}.title:hover{color:violet}.buttom:hover{color:blue;background:white;border:2px solid;border-radius:10px}

@@ -1,32 +1,37 @@
 
-.title::first-letter {
+/* .enlace:link {
     color: red;
-    font-size: 2em;
 }
 
-.text::first-line{
-        color: blue;
-        font-size: 2em;
-}
-
-.text::selection {
-    color: lime;
-    background: red;
-}
-
-/* .dolar::before,
-.dolar::after{
-
-    content: '';
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: red;
+.enlacedos:visited {
+    color:maroon;
 } */
-.dolar::before{
-    content: '$';
+
+.enlace:active {
+
+    color: cyan;
+    background: red;
 }
 
-.dolar::after {
-    content:'.00';
+.buttom {
+    text-decoration: none;
+    display: inline-block;
+    background: red;
+    padding: 5em;
+    border-radius: 10px;
+    color: white;
+}
+.buttom:active {
+
+    transform: scale(0.9);
+}
+.title:hover {
+    color: violet;
+}
+
+.buttom:hover {
+    color:blue;
+    background: white;
+    border: 2px solid;
+    border-radius: 10px;
 }
