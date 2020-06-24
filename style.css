@@ -1,44 +1,35 @@
-.input, label {
-    display: block;
-    margin-top: 10px;
-    margin-left: 30px;
-    
+[class^="bg-"]{
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    border: 1px solid red;
+}
+body {
+    padding-bottom: 50em;
+    text-align: center;
+}
+.bg-color {
+    background-color: green;
 }
 
-.input:enabled {
-    background: red;
+.bg-imagen {
+    background-image: url(imagenes/imagentres.jpg);
 }
 
-.input:disabled {
-
-    background: yellow;
-    border: none;
-}
-
-.input:checked + label{
-    font-size: 2em;
+.bg-size {
+    background-image: url(imagenes/imagentres.jpg);
+    background-size: cover;
 
 }
-.input:in-range {
-    background: green;
-}
-.input:out-of-range {
-    background: blue;
-}
 
-.input:optional {
-    background: purple;
+.bg-size {
+    background-image: url(imagenes/imagentres.jpg);
+    background-size: contain;
+
 }
 
-.input:required {
-    background: lightcoral;
-}
+.bg-repeat {
 
-.input:valid {
-
-    background: green;
-}
-
-.input:invalid {
-    background:red ;
+    background-image: url(imagenes/imagentres.jpg);
+    background-size: 30px;
 }
