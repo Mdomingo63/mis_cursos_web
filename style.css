@@ -1,35 +1,50 @@
-[class^="bg-"]{
-    display: inline-block;
-    width: 30%;
-    height: 150px;
-    border: 1px solid red;
-}
-body {
-    padding-bottom: 50em;
+.table {
+
+    table-layout: fixed;
+    width: 100%;
     text-align: center;
 }
-.bg-color {
-    background-color: green;
+
+/* .table {
+    caption-side: top;
+} */
+
+/* .table {
+    caption-side: bottom;
+} */
+
+
+/* .table {
+    caption-side:unset;
+} */
+
+.table, .table__data, .table__head {
+    border: 1px solid black;
+    border-spacing: 20px;
+
 }
 
-.bg-imagen {
-    background-image: url(imagenes/imagentres.jpg);
-}
+/* .table {
 
-.bg-size {
-    background-image: url(imagenes/imagentres.jpg);
-    background-size: cover;
+    border-collapse: separate;
+} */
 
-}
-
-.bg-size {
-    background-image: url(imagenes/imagentres.jpg);
-    background-size: contain;
+.table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    empty-cells: hide;
 
 }
 
-.bg-repeat {
+.table__data {
+    background-color: lightblue;
+}
 
-    background-image: url(imagenes/imagentres.jpg);
-    background-size: 30px;
+/* .table__data {
+    border: 1px solid black;
+}    */
+
+.table_container {
+
+    overflow-x: auto;
 }
