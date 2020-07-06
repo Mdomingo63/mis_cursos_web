@@ -1,36 +1,18 @@
+
+
 .box {
-
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    margin: 0.5em;
-    text-align: center;
-    line-height: 200px;
-    font-size: 2.5em;
-    display: inline-block;
+   width: 200px;
+   height: 200px;
+   border: 3px solid black;
+   margin: 2em auto;
+   /* background-image: linear-gradient( to right bottom, red, blue, yellow); */
+   /* background-image: linear-gradient(90deg, red, blue, yellow); */
+   /* background-image: linear-gradient( red 50%, blue 50%); */
+   /* background-image: linear-gradient(red 50%, blue 50% 75%, yellow); */
+   /* background-image: radial-gradient(red, blue); */
+   /* background-image: radial-gradient(circle 100px, red,  blue); */
+   /* background-image: radial-gradient(circle 100px, red 50%,  blue 50%); */
+   background-image: radial-gradient(circle 50px, red 50%,  blue 50%);
 }
 
-.box--color {
 
-
-}
-
-.box--rgb {
-
-
-}
-
-.box--rgba {
-
-
-}
-
-.box--hsl {
-
-
-}
-
-.box--hsla {
-
-    
-}
