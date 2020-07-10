@@ -1,3 +1,1 @@
-
-
-.box{width:200px;height:200px;border:3px solid black;margin:2em auto;background-image:repeating-radial-gradient(circle 20px,red 0%,red 10px,blue 10px,blue 20px)}
+.flex-container{background-color:#fca170;padding:.5em 0}.flex-item{width:30px;height:30px;margin:.5em;line-height:30px;color:aliceblue;text-align:center;background-color:#9a3488}

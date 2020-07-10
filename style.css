@@ -1,81 +1,18 @@
 
 
-/* .box {
-   width: 200px;
-   height: 200px;
-   border: 3px solid black;
-   margin: 2em auto; */
-   /* background-image: linear-gradient( to right bottom, red, blue, yellow); */
-   /* background-image: linear-gradient(90deg, red, blue, yellow); */
-   /* background-image: linear-gradient( red 50%, blue 50%); */
-   /* background-image: linear-gradient(red 50%, blue 50% 75%, yellow); */
-   /* background-image: radial-gradient(red, blue); */
-   /* background-image: radial-gradient(circle 100px, red,  blue); */
-   /* background-image: radial-gradient(circle 100px, red 50%,  blue 50%); */
-   /* background-image: radial-gradient(circle 50px, red 50%,  blue 50%); */
-   /* background-image: radial-gradient(circle 100px at top,  red 50%,  blue 50%); */
-   /* background-image: radial-gradient(circle 100px at top left,  red 50%,  blue 50%); */
-   /* background-image: radial-gradient(ellipse 100px 50px ,  red 50%,  blue 50%); */
-   /* background-image: radial-gradient(ellipse 100px 50px at bottom right,  red 50%,  blue 50%); */
-   /* background-image: radial-gradient(ellipse 100px 50px at bottom,  red 50%,  blue 50%); */
-   /* background-image: radial-gradient(ellipse 200px 50px at bottom,  red 50%,  blue 50%);
-   background-image: radial-gradient(ellipse 200px 50px at bottom, transparent 50%,  red 50%,  blue 50%); */
-/* } */
+.flex-container {
 
-/* .box {
-   width: 200px;
-   height: 200px;
-   border: 3px solid black;
-   margin: 2em auto;
-   background-image: linear-gradient(90deg, blue 50%, red 50%);
-   background-size: 30px 30px;
-} */
+   background-color: #fca170;
+   padding: .5em 0;
+}
 
-/* .box {
-   width: 200px;
-   height: 200px;
-   border: 3px solid black;
-   margin: 2em auto;
-   background-image: linear-gradient(45deg, 
-   blue 25%,
-   red 25%,
-   red 50%,
-   blue 50%,
-   blue 75%,
-   red 75%);
-   background-size: 30px 30px;
-} */
+.flex-item {
+   width: 30px;
+   height: 30px;
+   margin: .5em;
+   line-height: 30px;
+   color: aliceblue;
+   text-align: center;
+   background-color: #9a3488;
 
-/* .box {
-   width: 200px;
-   height: 200px;
-   border: 3px solid black;
-   margin: 2em auto;
-   background-image: repeating-linear-gradient(30deg,
-   red 0%,
-   blue 70px);   
-} */
-
-/* .box {
-   width: 200px;
-   height: 200px;
-   border: 3px solid black;
-   margin: 2em auto;
-   background-image: repeating-linear-gradient(20deg,
-   red 0%,
-   red 10px,
-   blue 10px,
-   blue 20px);   
-} */
-
-.box {
-   width: 200px;
-   height: 200px;
-   border: 3px solid black;
-   margin: 2em auto;
-   background-image: repeating-radial-gradient( circle 20px,
-   red 0%,
-   red 10px,
-   blue 10px,
-   blue 20px);   
 }
